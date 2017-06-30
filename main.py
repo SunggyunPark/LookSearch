@@ -50,7 +50,7 @@ def load_trn_options():
     # training parameters
     lflags.DEFINE_integer('save_step', 1, """ """)
     lflags.DEFINE_integer('batch_size', 256, """""")
-    lflags.DEFINE_list('epoch_schedule', [2, 1, 1], 
+    lflags.DEFINE_list('epoch_schedule', [4, 2, 2], 
     #lflags.DEFINE_list('epoch_schedule', [10, 20, 30], 
                        """Learning epochs schedule. Note that the end of list means total number of epochs.""")
     lflags.DEFINE_list('lr_schedule', [0.001, 0.0001, 0.00001], """Learning rate schedule.""")
